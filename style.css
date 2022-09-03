@@ -7,15 +7,16 @@ body{
     font-family: 'Roboto', sans-serif;
     margin:0px;
     padding:0px;
+    padding-top:80px;
     background-color: rgb(249, 249, 249);
 }
 
 header{
-    position: sticky;
+    position: fixed;
     top:0;
     background-color: white;
-    height:80px;
-    box-shadow: rgba(224, 223, 223, 0.15)0px 5px 5px;
+    height:auto;
+    box-shadow: rgba(215, 214, 214, 0.15)4px 8px 8px;
 }
 
 .left img{
@@ -23,15 +24,18 @@ header{
     height:32px;
     border-radius: 2rem;
 }
-
+.right{
+    display:flex;
+}
 .container{
     padding:0 10vw;
 }
 
 nav{
     width:80vw;
-    padding-top: 16px;
-    font-size:14px
+    padding-top: 18px;
+    font-size:14px;
+    padding-bottom:18px;
 
 }
 nav ul li{
@@ -49,12 +53,19 @@ nav ul li{
 .sec1 img{
     width: 100%;
     height: 100%;
-    margin-top: 5px;
 }
 .itemsimg{
     width:14.28%;
 }
 .sec3 img{
-    width:14.29%;
-    margin:-0.13%;
+    width:14.28%;
+    height:14.28%;
+}
+.sec4 img{
+    width:16.66%;
+    height:16.66%;
+}
+.fifty img{
+    width:50%;
+
 }
